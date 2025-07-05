@@ -1,13 +1,13 @@
-# Amazon Bedrock Runtime code examples for the SDK for SAP ABAP
+# Amazon Bedrock Agents Runtime code examples for the SDK for Rust
 
 ## Overview
 
-Shows how to use the AWS SDK for SAP ABAP to work with Amazon Bedrock Runtime.
+Shows how to use the AWS SDK for Rust to work with Amazon Bedrock Agents Runtime.
 
 <!--custom.overview.start-->
 <!--custom.overview.end-->
 
-_Amazon Bedrock Runtime is a fully managed service that makes it easy to use foundation models from third-party providers and Amazon._
+_Amazon Bedrock Agents Runtime offers you the ability to run autonomous agents in your application._
 
 ## ⚠ Important
 
@@ -23,18 +23,17 @@ _Amazon Bedrock Runtime is a fully managed service that makes it easy to use fou
 
 ### Prerequisites
 
-For prerequisites, see the [README](../../README.md#Prerequisites) in the `sap-abap` folder.
+For prerequisites, see the [README](../../README.md#Prerequisites) in the `rustv1` folder.
 
 
 <!--custom.prerequisites.start-->
 <!--custom.prerequisites.end-->
-### Anthropic Claude
 
-- [InvokeModel](zcl_aws1_bdr_actions.clas.abap#L150)
+### Single actions
 
-### Stable Diffusion
+Code excerpts that show you how to call individual service functions.
 
-- [InvokeModel](zcl_aws1_bdr_actions.clas.abap#L220)
+- [InvokeAgent](src/bin/invoke-agent.rs)
 
 
 <!--custom.examples.start-->
@@ -56,7 +55,7 @@ For prerequisites, see the [README](../../README.md#Prerequisites) in the `sap-a
 
 
 To find instructions for running these tests, see the [README](../../README.md#Tests)
-in the `sap-abap` folder.
+in the `rustv1` folder.
 
 
 
@@ -65,9 +64,9 @@ in the `sap-abap` folder.
 
 ## Additional resources
 
-- [Amazon Bedrock Runtime User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html)
-- [Amazon Bedrock Runtime API Reference](https://docs.aws.amazon.com/bedrock/latest/APIReference/welcome.html)
-- [SDK for SAP ABAP Amazon Bedrock Runtime reference](https://docs.aws.amazon.com/sdk-for-sap-abap/v1/api/latest/bdr/index.html)
+- [Amazon Bedrock Agents Runtime User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html)
+- [Amazon Bedrock Agents Runtime API Reference](https://docs.aws.amazon.com/bedrock/latest/APIReference/API_Operations_Agents_for_Amazon_Bedrock_Runtime.html)
+- [SDK for Rust Amazon Bedrock Agents Runtime reference](https://docs.rs/aws-sdk-bedrock-agent-runtime/latest/aws_sdk_bedrock-agent-runtime/)
 
 <!--custom.resources.start-->
 <!--custom.resources.end-->
